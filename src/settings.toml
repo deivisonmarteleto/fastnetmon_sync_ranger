@@ -1,0 +1,22 @@
+[default]
+
+### MONMGO
+MONGO_HOST="localhost"
+MONGO_DB = "db"
+
+### FILE NETWORK LIST
+FILE_NETWORK="/etc/networks_list"
+FILE_NETWORK_WHITE="/etc/networks_whitelist"
+
+### REDIS
+REDIS_HOST = "127.0.0.1"
+REDIS_PORT = "6379"
+REDIS_DB = "0"
+
+### IPAM
+IPAM_URL = "http://10.0.0.1"
+IPAM_APP_ID = "app"
+IPAM_USER = "api_user"
+
+### RANGER Operator, next hop VRF
+RANGER_NEXT_HOP = "custom_NEXT_HOP"
